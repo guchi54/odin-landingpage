@@ -78,7 +78,7 @@ img {
     color: #E5E7EB;
 }
 
-.one-left button {
+.signup {
     background-color: #3882F6;
     color: white;
     border: 0;
@@ -139,4 +139,31 @@ img {
     justify-content: flex-end;
     font-weight: bold;
     width: 65%;
+}
+
+.four {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 50px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.four .title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.four .signup {
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
 }
